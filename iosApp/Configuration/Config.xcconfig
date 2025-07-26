@@ -1,0 +1,7 @@
+TEAM_ID=
+
+PRODUCT_NAME=Clean_architecture_design_pattern_compose_multiple_platforms
+PRODUCT_BUNDLE_IDENTIFIER=co.tpcreative.clean_architecture_design_pattern_compose_multiple_platforms.Clean_architecture_design_pattern_compose_multiple_platforms$(TEAM_ID)
+
+CURRENT_PROJECT_VERSION=1
+MARKETING_VERSION=1.0

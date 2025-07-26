@@ -1,0 +1,3 @@
+package co.tpcreative.clean_architecture_design_pattern_compose_multiple_platforms
+
+const val SERVER_PORT = 8080
