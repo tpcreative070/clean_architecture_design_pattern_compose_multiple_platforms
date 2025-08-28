@@ -1,0 +1,3 @@
+package co.tpcreative.clean_architecture_design_pattern_compose_multiple_platforms.core.domain
+
+interface Error

@@ -2,12 +2,17 @@ package co.tpcreative.clean_architecture_design_pattern_compose_multiple_platfor
 
 import androidx.compose.ui.window.Window
 import androidx.compose.ui.window.application
+import co.tpcreative.clean_architecture_design_pattern_compose_multiple_platforms.di.initKoin
 
-fun main() = application {
-    Window(
-        onCloseRequest = ::exitApplication,
-        title = "Clean_architecture_design_pattern_compose_multiple_platforms",
-    ) {
-        App()
+
+fun main() {
+    initKoin()
+    application {
+        Window(
+            onCloseRequest = ::exitApplication,
+            title = "CMP-Bookpedia",
+        ) {
+            App()
+        }
     }
 }
