@@ -33,6 +33,23 @@ kotlin {
             isStatic = true
         }
     }
+
+//    iosArm64() {
+//        binaries {
+//            framework {
+//                baseName = "ComposeApp"
+//                isStatic = true // Or false for dynamic
+//            }
+//        }
+//    }
+//    iosSimulatorArm64() {
+//        binaries {
+//            framework {
+//                baseName = "ComposeApp"
+//                isStatic = true
+//            }
+//        }
+//    }
     
     jvm("desktop")
     
