@@ -1,10 +1,9 @@
 @file:OptIn(ExperimentalForeignApi::class)
 
-package co.tpcreative.clean_architecture_design_pattern_compose_multiple_platforms.database
+package co.tpcreative.clean_architecture_design_pattern_compose_multiple_platforms.book.data.database
 
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import co.tpcreative.clean_architecture_design_pattern_compose_multiple_platforms.book.data.database.FavoriteBookDatabase
 import kotlinx.cinterop.ExperimentalForeignApi
 import platform.Foundation.NSDocumentDirectory
 import platform.Foundation.NSFileManager

@@ -40,14 +40,14 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import cmp_bookpedia.composeapp.generated.resources.Res
-import cmp_bookpedia.composeapp.generated.resources.book_error_2
+import clean_architecture_design_pattern_compose_multiple_platforms.composeapp.generated.resources.Res
+import clean_architecture_design_pattern_compose_multiple_platforms.composeapp.generated.resources.book_error_2
+import co.tpcreative.clean_architecture_design_pattern_compose_multiple_platforms.book.domain.Book
+import co.tpcreative.clean_architecture_design_pattern_compose_multiple_platforms.core.presentation.LightBlue
+import co.tpcreative.clean_architecture_design_pattern_compose_multiple_platforms.core.presentation.PulseAnimation
+import co.tpcreative.clean_architecture_design_pattern_compose_multiple_platforms.core.presentation.SandYellow
 import coil3.compose.AsyncImagePainter
 import coil3.compose.rememberAsyncImagePainter
-import com.plcoding.bookpedia.book.domain.Book
-import com.plcoding.bookpedia.core.presentation.LightBlue
-import com.plcoding.bookpedia.core.presentation.PulseAnimation
-import com.plcoding.bookpedia.core.presentation.SandYellow
 import org.jetbrains.compose.resources.painterResource
 import kotlin.math.round
 

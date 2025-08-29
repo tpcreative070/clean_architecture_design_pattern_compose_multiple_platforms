@@ -62,7 +62,7 @@ kotlin {
     
     sourceSets {
         val desktopMain by getting
-        
+
         
         androidMain.dependencies {
             implementation(compose.preview)
@@ -89,6 +89,7 @@ kotlin {
             implementation(libs.kotlinx.serialization.json)
             implementation(libs.androidx.room.runtime)
             implementation(libs.sqlite.bundled)
+            
             implementation(libs.koin.compose)
             implementation(libs.koin.compose.viewmodel)
             api(libs.koin.core)

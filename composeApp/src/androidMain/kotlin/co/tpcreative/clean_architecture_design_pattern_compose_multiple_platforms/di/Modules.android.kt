@@ -1,6 +1,6 @@
 package co.tpcreative.clean_architecture_design_pattern_compose_multiple_platforms.di
 
-import co.tpcreative.clean_architecture_design_pattern_compose_multiple_platforms.database.DatabaseFactory
+import co.tpcreative.clean_architecture_design_pattern_compose_multiple_platforms.book.data.database.DatabaseFactory
 
 import io.ktor.client.engine.HttpClientEngine
 import io.ktor.client.engine.okhttp.OkHttp

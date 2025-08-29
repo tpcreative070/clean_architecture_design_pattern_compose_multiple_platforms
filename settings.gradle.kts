@@ -33,5 +33,5 @@ plugins {
 }
 
 include(":composeApp")
-include(":server")
-include(":shared")
+//include(":server")
+//include(":shared")
