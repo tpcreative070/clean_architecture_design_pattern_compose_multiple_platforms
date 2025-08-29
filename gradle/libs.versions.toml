@@ -19,6 +19,7 @@ ktor = "3.2.0"
 logback = "1.5.18"
 
 
+materialIconsCore = "1.7.3"
 materialIconsExtended = "1.7.8"
 navigationCompose = "2.8.0-alpha13"
 kotlinSerialization = "1.9.0"
@@ -75,6 +76,7 @@ coil-mp = { module = "io.coil-kt.coil3:coil", version.ref = "coil3" }
 
 androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
 androidx-room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+material-icons-core = { module = "org.jetbrains.compose.material:material-icons-core", version.ref = "materialIconsCore" }
 material-icons-extended = { module = "org.jetbrains.compose.material:material-icons-extended", version.ref = "materialIconsExtended" }
 sqlite-bundled = { module = "androidx.sqlite:sqlite-bundled", version.ref = "sqlite" }
 

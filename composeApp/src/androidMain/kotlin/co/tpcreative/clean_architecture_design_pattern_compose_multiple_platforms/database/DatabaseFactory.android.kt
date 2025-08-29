@@ -3,6 +3,7 @@ package co.tpcreative.clean_architecture_design_pattern_compose_multiple_platfor
 import android.content.Context
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import co.tpcreative.clean_architecture_design_pattern_compose_multiple_platforms.book.data.database.FavoriteBookDatabase
 
 actual class DatabaseFactory(
     private val context: Context

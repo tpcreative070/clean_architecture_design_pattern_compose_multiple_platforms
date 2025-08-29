@@ -11,7 +11,6 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.layout.wrapContentSize
 import androidx.compose.foundation.rememberScrollState
@@ -30,17 +29,17 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import cmp_bookpedia.composeapp.generated.resources.Res
-import cmp_bookpedia.composeapp.generated.resources.description_unavailable
-import cmp_bookpedia.composeapp.generated.resources.languages
-import cmp_bookpedia.composeapp.generated.resources.pages
-import cmp_bookpedia.composeapp.generated.resources.rating
-import cmp_bookpedia.composeapp.generated.resources.synopsis
-import com.plcoding.bookpedia.book.presentation.book_detail.components.BlurredImageBackground
-import com.plcoding.bookpedia.book.presentation.book_detail.components.BookChip
-import com.plcoding.bookpedia.book.presentation.book_detail.components.ChipSize
-import com.plcoding.bookpedia.book.presentation.book_detail.components.TitledContent
-import com.plcoding.bookpedia.core.presentation.SandYellow
+import clean_architecture_design_pattern_compose_multiple_platforms.composeapp.generated.resources.Res
+import clean_architecture_design_pattern_compose_multiple_platforms.composeapp.generated.resources.description_unavailable
+import clean_architecture_design_pattern_compose_multiple_platforms.composeapp.generated.resources.languages
+import clean_architecture_design_pattern_compose_multiple_platforms.composeapp.generated.resources.pages
+import clean_architecture_design_pattern_compose_multiple_platforms.composeapp.generated.resources.rating
+import clean_architecture_design_pattern_compose_multiple_platforms.composeapp.generated.resources.synopsis
+import co.tpcreative.clean_architecture_design_pattern_compose_multiple_platforms.book.presentation.book_detail.components.BlurredImageBackground
+import co.tpcreative.clean_architecture_design_pattern_compose_multiple_platforms.book.presentation.book_detail.components.BookChip
+import co.tpcreative.clean_architecture_design_pattern_compose_multiple_platforms.book.presentation.book_detail.components.ChipSize
+import co.tpcreative.clean_architecture_design_pattern_compose_multiple_platforms.book.presentation.book_detail.components.TitledContent
+import co.tpcreative.clean_architecture_design_pattern_compose_multiple_platforms.core.presentation.SandYellow
 import org.jetbrains.compose.resources.stringResource
 import kotlin.math.round
 

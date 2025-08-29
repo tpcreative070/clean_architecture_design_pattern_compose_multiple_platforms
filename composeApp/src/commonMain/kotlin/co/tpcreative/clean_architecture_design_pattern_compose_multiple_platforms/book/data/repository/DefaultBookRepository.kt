@@ -2,18 +2,15 @@ package co.tpcreative.clean_architecture_design_pattern_compose_multiple_platfor
 
 import androidx.sqlite.SQLiteException
 import co.tpcreative.clean_architecture_design_pattern_compose_multiple_platforms.book.data.database.FavoriteBookDao
+import co.tpcreative.clean_architecture_design_pattern_compose_multiple_platforms.book.data.mappers.toBook
+import co.tpcreative.clean_architecture_design_pattern_compose_multiple_platforms.book.data.mappers.toBookEntity
 import co.tpcreative.clean_architecture_design_pattern_compose_multiple_platforms.book.data.network.RemoteBookDataSource
+import co.tpcreative.clean_architecture_design_pattern_compose_multiple_platforms.book.domain.Book
 import co.tpcreative.clean_architecture_design_pattern_compose_multiple_platforms.book.domain.BookRepository
-import com.plcoding.bookpedia.book.data.database.FavoriteBookDao
-import com.plcoding.bookpedia.book.data.mappers.toBook
-import com.plcoding.bookpedia.book.data.mappers.toBookEntity
-import com.plcoding.bookpedia.book.data.network.RemoteBookDataSource
-import com.plcoding.bookpedia.book.domain.Book
-import com.plcoding.bookpedia.book.domain.BookRepository
-import com.plcoding.bookpedia.core.domain.DataError
-import com.plcoding.bookpedia.core.domain.EmptyResult
-import com.plcoding.bookpedia.core.domain.Result
-import com.plcoding.bookpedia.core.domain.map
+import co.tpcreative.clean_architecture_design_pattern_compose_multiple_platforms.core.domain.DataError
+import co.tpcreative.clean_architecture_design_pattern_compose_multiple_platforms.core.domain.EmptyResult
+import co.tpcreative.clean_architecture_design_pattern_compose_multiple_platforms.core.domain.Result
+import co.tpcreative.clean_architecture_design_pattern_compose_multiple_platforms.core.domain.map
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 

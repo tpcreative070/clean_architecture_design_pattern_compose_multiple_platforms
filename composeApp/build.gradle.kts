@@ -62,12 +62,7 @@ kotlin {
     
     sourceSets {
         val desktopMain by getting
-
-        val iosArm64Main by getting {
-            dependencies {
-//                implementation(libs.material.icons.extended) // Replace $compose_version with your actual version
-            }
-        }
+        
         
         androidMain.dependencies {
             implementation(compose.preview)
@@ -100,6 +95,10 @@ kotlin {
 
             implementation(libs.bundles.ktor)
             implementation(libs.bundles.coil)
+
+
+            implementation(libs.material.icons.core)
+
 
         }
         commonTest.dependencies {

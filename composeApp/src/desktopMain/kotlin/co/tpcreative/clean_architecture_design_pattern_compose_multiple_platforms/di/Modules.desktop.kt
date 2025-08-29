@@ -1,4 +1,4 @@
-package com.plcoding.bookpedia.di
+package co.tpcreative.clean_architecture_design_pattern_compose_multiple_platforms.di
 
 import co.tpcreative.clean_architecture_design_pattern_compose_multiple_platforms.database.DatabaseFactory
 import io.ktor.client.engine.HttpClientEngine

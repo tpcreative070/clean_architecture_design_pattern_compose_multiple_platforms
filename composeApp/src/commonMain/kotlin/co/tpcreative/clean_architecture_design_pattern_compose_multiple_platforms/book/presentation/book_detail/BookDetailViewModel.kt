@@ -6,9 +6,9 @@ import androidx.lifecycle.viewModelScope
 import androidx.navigation.toRoute
 import co.tpcreative.clean_architecture_design_pattern_compose_multiple_platforms.app.Route
 import co.tpcreative.clean_architecture_design_pattern_compose_multiple_platforms.book.domain.BookRepository
+import co.tpcreative.clean_architecture_design_pattern_compose_multiple_platforms.core.domain.onSuccess
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
-import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.flow.onStart

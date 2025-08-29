@@ -13,7 +13,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.unit.dp
-import com.plcoding.bookpedia.core.presentation.LightBlue
+import co.tpcreative.clean_architecture_design_pattern_compose_multiple_platforms.core.presentation.LightBlue
 
 enum class ChipSize {
     SMALL, REGULAR

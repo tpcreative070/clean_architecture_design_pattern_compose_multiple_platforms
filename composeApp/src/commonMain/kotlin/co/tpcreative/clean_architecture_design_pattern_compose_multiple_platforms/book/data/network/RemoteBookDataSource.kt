@@ -1,9 +1,10 @@
 package co.tpcreative.clean_architecture_design_pattern_compose_multiple_platforms.book.data.network
 
-import com.plcoding.bookpedia.book.data.dto.BookWorkDto
-import com.plcoding.bookpedia.book.data.dto.SearchResponseDto
-import com.plcoding.bookpedia.core.domain.DataError
-import com.plcoding.bookpedia.core.domain.Result
+import co.tpcreative.clean_architecture_design_pattern_compose_multiple_platforms.book.data.dto.BookWorkDto
+import co.tpcreative.clean_architecture_design_pattern_compose_multiple_platforms.book.data.dto.SearchResponseDto
+import co.tpcreative.clean_architecture_design_pattern_compose_multiple_platforms.core.domain.DataError
+import co.tpcreative.clean_architecture_design_pattern_compose_multiple_platforms.core.domain.Result
+
 
 interface RemoteBookDataSource {
     suspend fun searchBooks(
